@@ -36,14 +36,16 @@ header {
 img#crest {
   /*   https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/ */
   flex: 0 1 10vw;
-  max-height: 20vh;
+  height: 20vh;
+  max-height: 100px;
   width: 100vw;
   object-fit: contain;
 }
 img#castle {
   flex: 3 1 80%;
   border-radius: 1rem;
-  max-height: 20vh;
+  height: 20vh;
+  max-height: 100px;
   width: 100vw;
   object-fit: cover;
 }
